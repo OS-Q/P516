@@ -4,6 +4,5 @@
 .vscode
 .travis.yml
 .vscode/*
-lib/
 .clang_complete
 .gcc-flags.json
