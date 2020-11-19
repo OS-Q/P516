@@ -1,3 +1,7 @@
+*.db
+*.yml
+.vs/
+.pio/
 .pio
 .pioenvs
 .piolibdeps
