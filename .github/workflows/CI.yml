@@ -15,11 +15,6 @@ jobs:
       fail-fast: false
       matrix:
         example:
-          - "arduino-blink"
-          - "arduino-briki-internal-libs"
-          - "arduino-wifiscan"
-          - "espidf-arduino-blink"
-          - "espidf-arduino-wifiscan"
           - "espidf-aws-iot"
           - "espidf-ble-eddystone"
           - "espidf-coap-server"
@@ -32,8 +27,6 @@ jobs:
           - "espidf-storage-spiffs"
           - "espidf-ulp-adc"
           - "espidf-ulp-pulse"
-          - "pumbaa-blink"
-          - "simba-blink"
         os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.9]
     runs-on: ${{ matrix.os }}
