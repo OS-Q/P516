@@ -1,7 +1,7 @@
 {
   "name": "P516",
-  "title": "Espressif32 Wi-Fi & BLE SoC",
-  "description": "They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
+  "title": "ESP32C3 MCU",
+  "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
   "homepage": "https://espressif.com/",
   "license": "Apache-2.0",
   "keywords": [
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/OS-Q/P516.git"
   },
-  "version": "3.3.1",
+  "version": "3.4.0",
   "frameworks": {
     "arduino": {
       "package": "framework-arduinoespressif32",
@@ -77,6 +77,24 @@
       "owner": "platformio",
       "version": "~1.80400.0"
     },
+    "toolchain-xtensa-esp32": {
+      "type": "toolchain",
+      "optional": true,
+      "owner": "espressif",
+      "version": "8.4.0+2021r1"
+    },
+    "toolchain-xtensa-esp32s2": {
+      "type": "toolchain",
+      "optional": true,
+      "owner": "espressif",
+      "version": "8.4.0+2021r1"
+    },
+    "toolchain-riscv32-esp": {
+      "type": "toolchain",
+      "optional": true,
+      "owner": "espressif",
+      "version": "8.4.0+2021r1"
+    },
     "framework-arduinoespressif32": {
       "type": "framework",
       "optional": true,
@@ -93,7 +111,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~3.40300.0",
+      "version": "~3.40301.0",
       "optionalVersions": ["~3.40001.0"]
     },
     "framework-simba": {

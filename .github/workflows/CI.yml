@@ -2,11 +2,17 @@ name: CI
 
 on:
   push:
+    branches:
+      - master
     paths:
-      - 'platform.*'
+      - 'boards/**'
       - 'builder/**'
       - 'examples/**'
-      - '**.yml'
+      - 'ldscripts/**'
+      - '**.json'
+      - '**.py'
+
+
 
 
 jobs:
